@@ -1,0 +1,12 @@
+We're going to make Home.js be the user's profile.
+
+First, we connect Home.js to the store.
+
+User was added to the store because via:
+  Login.js -> actions/auth.js -> reducers/user.js
+
+Adam likes to start by building the component part first.
+
+But now we're going to add posts, so add 'posts' stuff to reducers/index.js
+...and then write the reducers/posts.js reducer
+
